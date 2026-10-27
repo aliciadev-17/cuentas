@@ -1,0 +1,12 @@
+Cuentas de los dos - app web instalable (PWA)
+
+Abrir sin instalar nada: sirve index.html desde cualquier servidor web (por ejemplo, GitHub Pages).
+Sin configurar Firebase funciona en MODO LOCAL (datos solo en ese móvil).
+Para compartir datos entre los dos móviles sigue GUIA.md.
+
+Archivos:
+  index.html, app.js      interfaz
+  logic.js                cálculos (carteras, reparto, cierre de mes)
+  store.js                guardado: local o Firebase en tiempo real
+  firebase-config.js      aquí se pega la configuración de Firebase
+  sw.js, manifest.webmanifest, *.png   instalación y modo sin conexión
